@@ -1,0 +1,93 @@
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+
+  
+  /* CSS image reference example. */
+  
+  /* background-image: url('./images/bg-pattern.png');  */
+}
+.intro{
+  display: block;
+  margin: auto;
+}
+.makeAname{
+  padding: 15px;
+  text-align: center;
+  font-family: "Ubuntu";
+  width: 200;
+  margin: auto;
+}
+.countryInput{
+  text-align: center;
+  margin: auto;
+}
+.countriesFound{
+
+  list-style: none;
+  font-family: "Ubuntu";
+}
+.countryName{
+   list-style:outside;
+text-align: left;
+padding-top: 15px;
+padding-bottom: 15px;
+  margin: auto;
+  font-family: "Ubuntu";
+  font-size: 40px;
+}
+.onecountryName{
+  
+text-align: center;
+padding-top: 15px;
+padding-bottom: 15px;
+  margin: auto;
+  font-family: "Ubuntu";
+  font-size: 40px;
+
+}
+.flag{
+  text-align: center;
+}
+.nameCountries{
+  margin: auto;
+  text-align: center;
+  width: 500px;
+  height: 50px ;
+}
+.capital{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+  font-size: 30px;
+  text-align: left;
+}
+.population{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+  font-size: 30px;
+text-align: left;
+}
+.languages_list{
+  list-style: outside;
+  font-size: 20px;
+  padding-left: 50px;
+  text-align: left;
+}
+.languages__name{
+  font-size: 25px;
+
+}
